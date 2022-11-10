@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Report</title>
+  </head>
+  <body>
+    <div class="bg-white">
+      <div class="mx-16 my-6">
+        <!-- Header  -->
+        <header>
+          <div class="flex items-center gap-4 my-4">
+            <img src="/src/assets/lims_logo.svg" alt="main logo" class="h-12" />
+            <h1 class="text-[#5B4FD7] block font-extrabold text-4xl">LIMS</h1>
+            <div class="logo-text text-[#4A4A4A] flex flex-wrap">
+              <p class="ml-3 mr-2 inline-block">
+                Lab Information Management System(LIMS)
+              </p>
+              <span class="text-gray-400">|</span>
+              <p class="ml-3 mr-2 inline-block">
+                8445 S East Ave, Las Vegas, NV 89014
+              </p>
+              <span class="text-gray-400">|</span>
+
+              <p class="ml-3 mr-2 inline-block">Phone: (702) 463-3784</p>
+              <span class="text-gray-400">|</span>
+
+              <p class="ml-3 mr-2 inline-block">Fax: (702) 463-3236</p>
+              <span class="text-gray-400">|</span>
+
+              <p class="ml-3 mr-2 inline-block">
+                Web: https://www.gri-labs.com/
+              </p>
+              <span class="text-gray-400">|</span>
+
+              <p class="ml-3 mr-2 inline-block">CLIA #29D2093280</p>
+              <span class="text-gray-400">|</span>
+
+              <p class="ml-3 mr-2 inline-block">
+                Lab Director: Craig Voss M D.
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-full text-center bg-[#5B4FD7] text-white font-bold uppercase py-3"
+          >
+            laboratory report
+          </div>
+        </header>
+        <!-- end of Header -->
+        <!-- Body -->
+        <!-- basic detail -->
+        <div class="mt-8 flex gap-16">
+          <!-- patient information table -->
+          <div class="overflow-x-auto w-96 relative">
+            <div
+              class="text-[#2A2A2A] uppercase bg-[#EFEEFD] font-bold border border-blue-600"
+            >
+              <p class="pl-4 py-2">Patient information</p>
+            </div>
+            <table
+              class="w-96 text-sm text-left text-dark dark:text-gray-400 border-1 border-blue-400"
+            >
+              <tbody class="border-l border-b border-r border-blue-600">
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">Name:</td>
+                  <td class="pl-4 py-2 border-l border-blue-600">Saugat Rai</td>
+                </tr>
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    age/sex:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">23/F</td>
+                </tr>
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">DOB:</td>
+                  <td class="pl-4 py-2 border-l border-blue-600">03/09/1898</td>
+                </tr>
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    Patient ID:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">289573489</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- end of patient information table  -->
+          <!-- physician information -->
+          <div class="overflow-x-auto w-96 relative">
+            <div
+              class="text-[#2A2A2A] uppercase bg-[#EFEEFD] font-bold border border-blue-600"
+            >
+              <p class="pl-4 py-2">Physician information</p>
+            </div>
+            <table
+              class="w-96 text-sm text-left text-dark dark:text-gray-400 border-1 border-blue-400"
+            >
+              <tbody class="border-l border-b border-r border-blue-600">
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    Physician:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">
+                    Aayush Rimal
+                  </td>
+                </tr>
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    Contact:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">9807452637</td>
+                </tr>
+                <tr>
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    Physician ID:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">398593</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <h2>Accession ID:</h2>
+            <img src="./assets//barcode.png" alt="" class="mt-4 h-24" />
+          </div>
+
+          <!--end of physician information -->
+        </div>
+        <!-- end of basic detail -->
+        <!--  specimen-->
+        <div>
+          <div class="overflow-x-auto w-full relative mt-8">
+            <div
+              class="text-[#2A2A2A] uppercase bg-[#EFEEFD] font-bold border border-blue-600"
+            >
+              <p class="pl-4 py-2">specimen #1</p>
+            </div>
+            <table
+              class="w-full text-sm text-left text-dark dark:text-gray-400 border-1 border-blue-400"
+            >
+              <tbody class="border-l border-b border-r border-blue-600">
+                <tr class="border-b border-blue-600">
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    specimen:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-r border-blue-600">
+                    white blood
+                  </td>
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    collection data:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-r border-blue-600">
+                    2/4/1987
+                  </td>
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    Reported date:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-blue-600">04/21/2023</td>
+                </tr>
+                <tr>
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    specimen #:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-r border-blue-600">
+                    9349384
+                  </td>
+                  <td class="pl-4 py-2 text capitalize font-medium">
+                    received data:
+                  </td>
+                  <td class="pl-4 py-2 border-l border-r border-blue-600">
+                    05/08/1834
+                  </td>
+                  <td class="pl-4 py-2 text capitalize font-medium"></td>
+                  <td class="pl-4 py-2 border-l border-blue-600"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="overflow-x-auto w-full relative">
+            <table
+              class="w-full text-sm text-left text-dark dark:text-gray-400 border-l border-r border-b border-blue-600"
+            >
+              <thead
+                class="text-[#2A2A2A] uppercase p-4 bg-[#EFEEFD] font-bold border-b border-blue-600"
+              >
+                <tr>
+                  <th class="py-2 pl-4">test</th>
+                  <th class="py-2 pl-4 border-l border-blue-600">result</th>
+                  <th class="py-2 pl-4 border-l border-blue-600">normal</th>
+                  <th class="py-2 pl-4 border-l border-blue-600">unit</th>
+                  <th class="py-2 pl-4 border-l border-blue-600">
+                    reference range
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="text-[#2A2A2A] capitalize bg-white font-bold">
+                      <p class="pl-4 py-2">complete blood</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">White Blood Cells (WBC)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-[#2A2A2A] capitalize bg-white font-bold">
+                      <p class="pl-4 py-2">WBC Differentials</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr class="border border-blue-600">
+                  <td class="py-2 pl-4">Hematocrit (HCT)</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">9</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">0.5</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">k/mcl</td>
+                  <td class="py-2 pl-4 border-l border-blue-600">3.4-33.17</td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="text-[#2A2A2A] capitalize bg-white">
+                      <p class="pl-4 py-2 font-bold">
+                        Comments:
+                        <span class="font-normal"
+                          >Critical result Hbg of 7.0 and Hct of 21.1 reported
+                          to Dr. Saugat Rai ay 15:45 on 03/03/2022 by M.
+                          Peters.</span
+                        >
+                      </p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- end of specimen-->
+
+        <div class="w-full text-center text-dark font-bold uppercase my-8">
+          * end of report *
+        </div>
+
+        <!-- end of Body -->
+
+        <footer class="mt-16 mb-8">
+          <div class="flex gap-16 items-start">
+            <div class="border border-blue-600 px-2 py-3 w-2/3">
+              <p class="pl-4 py-2 font-bold">
+                Remarks:
+                <span class="font-normal"
+                  >Critical result Hbg of 7.0 and Hct of 21.1 reported to Dr.
+                  Saugat Rai ay 15:45 on 03/03/2022 by M. Peters.</span
+                >
+              </p>
+            </div>
+            <div class="w-1/3">
+              <h2>Accession ID:</h2>
+              <img src="./assets//barcode.png" alt="" class="mt-3 h-24" />
+            </div>
+          </div>
+
+          <div>
+            <p class="font-bold">
+              Page:
+              <span class="font-normal">1 of 2</span>
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
